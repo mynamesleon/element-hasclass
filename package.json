@@ -1,0 +1,35 @@
+{
+    "name": "element-hasclass",
+    "version": "1.0.0",
+    "description": "Tiny zero dependency helper module to check if element(s) have a particular class",
+    "source": "src/element-hasclass.js",
+    "main": "dist/element-hasclass.js",
+    "module": "dist/element-hasclass.mjs",
+    "unpkg": "dist/element-hasclass.umd.js",
+    "scripts": {
+        "build": "microbundle --sourcemap false --name hasclass"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mynamesleon/element-hasclass.git"
+    },
+    "keywords": [
+        "hasclass",
+        "element",
+        "element-hasclass"
+    ],
+    "files": [
+        "src",
+        "dist"
+    ],
+    "author": "Leon Slater (https://www.mynamesleon.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mynamesleon/element-hasclass/issues"
+    },
+    "homepage": "https://github.com/mynamesleon/element-hasclass#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "microbundle": "^0.11.0"
+    }
+}
