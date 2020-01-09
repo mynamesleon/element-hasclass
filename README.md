@@ -5,7 +5,7 @@ Tiny zero dependency helper module to check if element(s) have a particular clas
 This emulates jQuery's `hasClass` behaviour: it works for multiple elements, and even works in awful browsers.
 
 ```javascript
-hasClass(elements, 'class-1 class-2 class-3');
+hasClass(elements, 'class-to-check');
 ```
 
 ## Installation and usage
