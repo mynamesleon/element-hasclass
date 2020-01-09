@@ -7,7 +7,7 @@
     "module": "dist/element-hasclass.mjs",
     "unpkg": "dist/element-hasclass.umd.js",
     "scripts": {
-        "build": "microbundle --sourcemap false --name hasclass"
+        "build": "microbundle --sourcemap false --name hasClass"
     },
     "repository": {
         "type": "git",
