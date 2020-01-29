@@ -1,6 +1,6 @@
 {
     "name": "element-hasclass",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Tiny zero dependency helper module to check if element(s) have a particular class",
     "source": "src/element-hasclass.js",
     "main": "dist/element-hasclass.js",

@@ -21,14 +21,14 @@ function elemHasClass(elem, className) {
  * @returns {Boolean}
  */
 export default function hasClass(elem, className) {
-    if (elem && typeof elem.length === 'number') {
+    if (elem && elem.nodeType === 1 && typeof className === 'string') {
+        return elemHasClass(elem, className);
+    } else if (elem && typeof elem.length === 'number') {
         for (let i = 0, l = elem.length; i < l; i += 1) {
-            if (elemHasClass(elem[i], className)) {
+            if (hasClass(elem[i], className)) {
                 return true;
             }
         }
-        return false;
     }
-
-    return elemHasClass(elem, className);
+    return false;
 }
